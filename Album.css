@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+*{
+    box-sizing:border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav{
+    padding: 0.5%;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-header{
+    background-color: rgba(0,0,0, .6);
+    background-image: url("images/Screenshot\ 2022-11-07\ 211248.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Metal Mania";
+    color: rgb(144, 248, 222);
+    font-weight: normal;
+}
+.band-name-large{
+    font-size: 4em;
+}
+.content-section{
+    margin: 1em;
+}
+.conatiner{
+    max-width: 900px;
+    margin: auto;
+    padding: 01.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200x;
+    margin: 15px;
+    border-radius:25%;
+
+}
+.main-footer{
+    background-color: #2e1228;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.link a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    display: contents;
+
+}
+.link-design li{
+    display: inline;
+}
+.side{
+    text-align: right;
+}
+.side li {
+    text-align: right;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row :last-child{
+    border-bottom: none
+    ;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+   width: 42%;
+}
+.tour-btn{
+    max-width: 19%;
+}
+.btn-primary{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+
+}
+.btn-primary:hover{
+    background-color: #2d9cdb;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-image {
+    height: 250px;
+}
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+
+}
+.shop-item{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.store-body{
+    background-image: url("Images/tusik-only-zoNikCnlzBU-unsplash.jpg");
+}
+.second-album,
+.third-album{
+    height: 250px;
+    padding-left: 26px;
+    display: inline-block;
+}
+.album-name{
+    font-size: 24px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: rgb(196, 44, 44);
+    padding-left: 25px;
+}
+.name{
+    color: rgb(34, 29, 29);
+}
+.price-tag{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.pad{
+    padding-left: 50px;
+}
+.merch-img{
+    height: 250px;
+}
+.shirt{
+    padding-left: 24px;
+}
